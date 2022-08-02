@@ -1,0 +1,21 @@
+Source: distro-info-data
+Section: devel
+Priority: optional
+Maintainer: Youngtaek Yoon <youngtaek_yoon@tmax.co.kr>
+XSBC-Original-Maintainer: Benjamin Drung <bdrung@debian.org>
+Build-Depends: debhelper-compat (= 12), python3
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+
+Package: distro-info-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Breaks: distro-info (<< 1.0~)
+Description: information about the distributions' releases (data files)
+ Information about all releases of Debian and Ubuntu. The distro-info script
+ will give you the codename for e.g. the latest stable release of your
+ distribution. To get information about a specific distribution there are the
+ debian-distro-info and the ubuntu-distro-info scripts.
+ .
+ This package contains the data files.

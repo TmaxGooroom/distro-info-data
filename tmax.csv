@@ -1,0 +1,6 @@
+version,codename,series,created,release,eol,eol-lts,eol-elts
+1,Goyang-i,goyang-i,2018-02-21,2019-07-19,2021-02-22
+2,Nabi,nabi,2019-07-19,2021-02-22
+3,Dambi,dambi,2021-02-22
+,Gorani,gorani,2018-02-21
+,Tmax-experimental,tmax-experimental,2018-02-21
